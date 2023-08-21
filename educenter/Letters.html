@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caligraphy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Toast message -->
+  <link rel="stylesheet" href="./libary/toast-message/toast.css">
+
+</head>
+
+<body>
+
+  <div id="toast"></div>
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/?lang=en"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/?hl=en"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <p class="navbar-brand"><a href="index.html"><img src="images/logo.jpg" alt="logo" width = 150px height = 100px></a></p>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Origination.html">Origination</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Forms and styles
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="children.html">Children</a>
+                <a class="dropdown-item" href="young.html">Young</a>
+                <a class="dropdown-item" href="Elders.html">Elders</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Letters and Fonts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Letters.html">Letters</a>
+                <a class="dropdown-item" href="code fonts.html">Fonts</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Designs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="course-single.html">China</a>
+                <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                <a class="dropdown-item" href="forindia-single.html">India</a>
+                <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Customer support
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Register</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <div id = "Rsend" class="login">
+                  <form action="#" class="row">
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password" required>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="btn btn-primary">SIGN UP</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Login</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div id = "Lsend" class="modal-body">
+              <form action="#" class="row">
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" required>
+                  </div>
+                  <div class="col-12">
+                      <button type="submit" class="btn btn-primary">LOGIN</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/anh21.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">Our letters and Fonts</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">The letters and fonts we create give you a clear view of the variety of letterforms and fonts available.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- courses -->
+<section class="section">
+    <h2 style="text-align: center;">Alphabets</h2>
+    <br>
+    <br>
+  <div class="col-12 px-0">
+    <h2>Korean Alphabet.</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>The Korean alphabet is called Hangeul or Choseongul. This is a board shape that dates back to the past and is still in use today. It was established by the 4th king of the Sejong dynasties with the contributions of dignitaries in the Book of Sages.<br>
+            The word system was perfected in 1443 and officially used in 1446 under the main name Coach. In Korea today, Hangeul Day is the anniversary of the birth of the Korean alphabet.<br>
+            The Hangeul alphabet was created to help everyone read and write, especially the common people. Instead of using Chinese characters and Korean text as before. Its use helps people get a new language simpler and easier to learn. The main sound set composed by King Sejong played an important role in conveying and disseminating the ideas of leaders in ancient society.<br>
+            Until now, Hangul script has become the official language of Korea.</p>
+        </ul>
+      </div>
+      <div class="col-md-6">
+          <img src="images/Letters and fonts/ảnh 3.jpg" wight="4000pt" height="400pt" >
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Chinese Alphabet.</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div>
+          <img src="images/Letters and fonts/trung quốc.jpg" wight="2000pt" height="300pt" >
+       </div>
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>The alphabet of this language is not like other languages. In  Chinese documents, the Chinese origin is ideograms, written with a series of symbolic and phonological images. Over time, to meet the needs of use, the Chinese alphabet has had many different variations. You can see the versions of Cantonese, Chinese characters, Han Nom… these are all considered to have originated from Chinese.<br>
+            Chinese characters continued to develop until the mid-20th century when simplified Chinese characters were introduced. The purpose of creating simplified characters is to reduce the illiteracy rate. Nowadays, simplified Chinese characters are commonly used in China. Meanwhile, traditional Chinese characters are commonly used in Taiwan and Hong Kong.</p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Vietnamese Alphabet.</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>The Vietnamese alphabet is a system of symbols in Latin letters used to combine meaningful words and record the language in tabular form according to the pronunciation of Vietnamese people.<br>
+            Vietnamese alphabet developed based on Latin characters. Vietnamese letters are the first basic premise in language learning. Children from “kindergarten” until entering “first grade” know at least the letters in the alphabet.<br>
+            Not only serving for education, the alphabet also helps in recording documents to pass on to generations to come. Therefore, the alphabet plays a huge role in the education industry in Vietnam.</p>
+        </ul>
+      </div>
+      <div class="col-md-6">
+          <img src="images/Letters and fonts/ảnh 4.jpg" wight="10000pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Japanese Alphabet.</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div>
+          <img src="images/Letters and fonts/Nhật bản.jpg" wight="8000pt" height="300pt" >
+       </div>
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>Originally formed, has the longest lifespan and is also the most commonly used. The Japanese believe that using kanji makes reading comprehension really easy and the language has deep meanings.<br>
+            However, Kanji also soon revealed its certain limitations, because while Chinese is monosyllabic, Japanese almost has to combine several syllables into a word, and moreover this word when dividing the past, present and future are also different.<br>        
+            Because of these defects, the Japanese needed to create a new set of characters to overcome these errors. So, 2 alphabets Hiragana and Katakana were born to make up for those shortcomings!</p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Indian Alphabet.</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>Hindi comes from the Hindustani language spoken in North India. It was standardized in the 19th century along with Urdu. These two languages ​​have many similarities and many consider them to be variations of the original language, Hindustani.<br>
+            Hindi comes from Indo-European language family, while there are many languages ​​spoken in India and they belong to different language families. The main languages ​​are the Indo-Aryan and Dravidian languages, as well as the Austroasiatic, Tai-Kadai and Sino-Tibetan languages. The country ranks second after Papua New Guinea in the number of languages ​​spoken.</p>
+        </ul>
+      </div>
+      <div class="col-md-6">
+          <img src="images/Letters and fonts/ảnh 2.gif" wight="2000pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Arabic Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div>
+          <img src="images/Letters and fonts/Ả rập.png" wight="1000pt" height="350pt" >
+       </div>
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>The Arabic alphabet  (Arabic: عربية ‎ 'abjadiyyah 'arabiyyah) is the writing system used for the writing of many languages ​​in Asia and Africa, such as Arabic and Urdu. After  Latin Alphabet, it is the second most widely used alphabet worldwide.[1] The alphabet was first used in writing in  Arabic, notably the  Quran, the bible of Islam. With the spread of Islam, it came to be used for many languages ​​of language families.<br>
+            The basic Arabic alphabet contains 28 characters. Arabic expansions for other languages ​​added and removed some letters, such as the Persian alphabet, Ottoman Kurdish, Sindhi, Urdu, Malaysian, Javanese,Kuryan, Pashto, and Arabic Malayalam, all with extra text as shown below. There is no difference between large and small letters.<br>
+            Many letters look similar but are distinguished from each other by a dot (i'jām) above or below the center of the letter (rasm).Dots are an integral part of a word, used to distinguish between characters representing different sounds. For example, phonetic Arabic letters b and t have the same basic shape, but b has a dot below, ب, and t has two dots above, ت.<br>
+            Both the printed and handwritten forms of Arabic are cursive, with most of the letters in a word connecting directly to adjacent letters.
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Russian Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>Russian (русский язык, pronounced /ruskʲə: jɪ'zɨk/) is the fourth most popular language in the world and the second largest on the Internet. Therefore, the chances of getting a good job while studying Russian are very high.<br>
+            Many people think that Russian is a difficult language to learn because of its diverse grammar. However, the pronunciation and spelling in Russian are quite similar to Vietnamese, so we have a slight advantage when learning this language.<br>           
+            The Russian alphabet is derived from the Cyrillic alphabet, consisting of 33 characters with 31 letters and 2 accents. You can refer to the standard Russian alphabet with printed letters, letters, letter names, pronunciation, and similar Vietnamese sounds in the table below.
+          </p>
+        </ul>
+      </div>
+      <div>
+          <img src="images/Letters and fonts/nga.webp" wight="1500pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Cambodian Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div>
+          <img src="images/Letters and fonts/campuchia.jpg" wight="4000pt" height="400pt" >
+       </div>
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>Khmer language also called Cambodian is the language of the Khmer people. Besides, it is also the official language of Cambodia. With about 16 million speakers, it is the second most popular language in the Austroasiatic family (after Vietnamese). Khmer is significantly influenced by Sanskrit and Pali through Hinduism and Buddhism. Especially in the area of ​​royal language and religion.<br>
+            The colloquial Khmer had an impact on and was also influenced by Thai, Lao, Vietnamese, and Cham languages. Due to geographical proximity and enduring cultural influence, a Southeast Asian language region is created. It is also the earliest recorded Mon–Khmer language and has the oldest writing system. Before Mon and long before Vietnamese because Old Khmer was the language of the kingdoms of Chan Lap, Angkor and, perhaps, Funan.
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Taiwan Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>Taiwanese Hokkien is often referred to as Taiwanese for short. This is a variation from the Minnan-Chinese language. This language is spoken by 70% of Taiwanese people on a daily basis. The rest use Mandarin Chinese (Mandarin).<br>
+            Taiwanese can be considered as the dialect of China. Can also be considered an independent language. Because this language has different syllables, unlike Mandarin Chinese.
+          </p>
+        </ul>
+      </div>
+      <div>
+        <img src="images/Letters and fonts/đài loan.png" wight="500pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>Greek Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div>
+          <img src="images/Letters and fonts/Hy lạp.png" wight="3000pt" height="400pt" >
+      </div>
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>The alpha beta Greek alphabet (“Ελληνικό αλφάβητο” – Elleniká alphabeto) is a 24-letter system used to write Greek. The Greek alphabet was inherited from the Phoenician alphabet, which was the basis for many other European and Middle Eastern alphabets, including the Latin alphabet.<br>
+            Since the Greek alphabet often appears in mathematical formulas and symbols, it is easy to memorize the alphabet.
+          </p>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="col-12 px-0">
+    <h2>German Alphabet</h2>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p>German is a language with a strong difference between spoken and written languages. Written language uses a lot of embedded relative clause structure, but it is almost never used in everyday communication. In everyday communication, a relative clause (also known as a subordinate sentence,  nebensatz) is often used and is always said with a relative word. The reduction of any grammatical structure even in the spoken style (such as the reduction of relational words as in  English) is also considered as grammatically incorrect.
+          </p>
+        </ul>
+      </div>
+      <div>
+        <img src="images/Letters and fonts/Đức.png" wight="4000pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- footer -->
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Area III, Can Tho University, 01 Ly Tu Trong, Ninh Kieu District, City. Can Tho</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>+44 300 303 0266</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>calligraphy@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>May oily rain <br>
+
+I ask for your knowledge to give you many . <br>
+
+Across the river, send back a smile. <br>
+Love to a dear teacher. <br>
+
+Carpentry crane - dewy head <br>
+
+I've been with you for thousands of days.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoidmkifQ%3D%3D"%7D"><i class="fab fa-twitter twitter-bg"></i></a>
+                        <a href="https://www.google.com/search?q=google&client=opera&hs=Wos&sxsrf=ALiCzsahu0oehOuo3gH5aCS0orrL8dCMzg%3A1655304035704&ei=Y--pYo3FKv714-EPnuutwA8&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=google&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIQCC4QsQMQgwEQxwEQ0QMQQzILCAAQgAQQsQMQgwEyBAgAEEMyCwgAEIAEELEDEIMBMgUIABCABDIECAAQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgcIABBHELADOgcIABCwAxBDOhIILhDHARDRAxDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToECAAQRzoHCCMQsQIQJzoKCAAQsQMQgwEQCjoECAAQCjoHCAAQsQMQCkoECEEYAEoECEYYAFC5VVjFW2CrcmgDcAJ4AYAB-QGIAbEHkgEDMi00mAEAoAEByAEIwAEB2gEECAEYCA&sclient=gws-wiz"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="Origination.html">Origination</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Forms and styles
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="children.html">Children</a>
+                            <a class="dropdown-item" href="young.html">Young</a>
+                            <a class="dropdown-item" href="Elders.html">Elders</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Letters and Fonts
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Letters.html">Letters</a>
+                            <a class="dropdown-item" href="code fonts.html">Fonts</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Designs
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course-single.html">China</a>
+                            <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                            <a class="dropdown-item" href="forindia-single.html">India</a>
+                            <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                            <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                            <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+                          </div>
+                        </li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Customer support
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Subscribe</h3>
+                    </div>
+                    <div class="footer-text mb-25">
+                        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form action="#">
+                            <input type="text" placeholder="Email Address">
+                            <button><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+<!-- /footer -->
+
+<script src="./libary/toast-message/toast.js"></script>
+
+<script>
+  document.getElementById('Rsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Sign up success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+<script>
+  document.getElementById('Lsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Login success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5...wOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

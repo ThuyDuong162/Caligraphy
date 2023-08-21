@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caligraphy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Toast message -->
+  <link rel="stylesheet" href="./libary/toast-message/toast.css">
+
+</head>
+
+<body>
+
+  <div id="toast"></div>
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/?lang=en"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/?hl=en"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <p class="navbar-brand"><a href="index.html"><img src="images/logo.jpg" alt="logo" width = 150px height = 100px></a></p>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Origination.html">Origination</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Forms and styles
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="children.html">Children</a>
+                <a class="dropdown-item" href="young.html">Young</a>
+                <a class="dropdown-item" href="Elders.html">Elders</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Letters and Fonts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Letters.html">Letters</a>
+                <a class="dropdown-item" href="code fonts.html">Fonts</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Designs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="course-single.html">China</a>
+                <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                <a class="dropdown-item" href="forindia-single.html">India</a>
+                <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Customer support
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Register</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <div id = "Rsend" class="login">
+                  <form action="#" class="row">
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password" required>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="btn btn-primary">SIGN UP</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Login</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div id = "Lsend" class="modal-body">
+              <form action="#" class="row">
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" required>
+                  </div>
+                  <div class="col-12">
+                      <button type="submit" class="btn btn-primary">LOGIN</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/anh5.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="list-inline custom-breadcrumb">
+            <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="blog.html">Latest news</a></li>
+          </ul>
+          <p class="text-lighten">In order to help update information about calligraphy quickly and without losing time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- /page title -->
+
+<!-- blog details -->
+<section class="section-sm bg-gray">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4">
+        <img src="images/đồ mĩ.jpg" alt="blog-thumb" class="img-fluid w-100">
+      </div>
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">Decembery 1, 2020</li>
+          <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><i><img src="images/clock1.png" width="15pt" height="15pt"> 20:33 </i></li>
+        </ul>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+      <!-- blog contect -->
+      <div class="col-12 mb-5">
+        <h2>New Year of the Rat 2020: Westerners are filled with joy in Ong Do street</h2>
+        <p>
+            Near the Lunar New Year of the Rat 2020, the streets in the center of Can Tho City are bustling with Ong Do neighborhood. The product stalls attract a large number of people and tourists to visit, ask for good luck…<br>
+Opened on 10/1, regardless of morning, afternoon or evening, the small neighborhood on the intersection between Tran Quoc Toan street and Hoa Binh street is always crowded with tourists.<br>
+From the elderly to young children, young men and women, and even foreign tourists, are also fascinated by Ong Do street in the West.<br>
+Different from the previous Lunar New Year occasions, this year's Ong Do neighborhood is designed to be larger to cater for calligraphy lovers inside and outside the city.<br>
+The street has the theme "Spring colors in the garden" with many stalls, including a calligraphy booth, a painting booth, a rice painting booth... attracting many tourists to visit and take photos.<br>
+        </p>
+      </div>
+      <!-- comment box -->
+      <div class="col-12">
+        <form action="#" class="row">
+          <div class="col-sm-6">
+            <input type="text" class="form-control mb-4" id="name" name="name" placeholder="Full Name">
+          </div>
+          <div class="col-sm-6">
+            <input type="email" class="form-control mb-4" id="mail" name="mail" placeholder="Email Address">
+          </div>
+          <div class="col-12">
+            <textarea name="comment" id="comment" class="form-control mb-4" placeholder="Comment Here..."></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" value="send" class="btn btn-primary">post comment</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /blog details -->
+
+<!-- footer -->
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Area III, Can Tho University, 01 Ly Tu Trong, Ninh Kieu District, City. Can Tho</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>+44 300 303 0266</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>calligraphy@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>May oily rain <br>
+
+I ask for your knowledge to give you many . <br>
+
+Across the river, send back a smile. <br>
+Love to a dear teacher. <br>
+
+Carpentry crane - dewy head <br>
+
+I've been with you for thousands of days.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoidmkifQ%3D%3D"%7D"><i class="fab fa-twitter twitter-bg"></i></a>
+                        <a href="https://www.google.com/search?q=google&client=opera&hs=Wos&sxsrf=ALiCzsahu0oehOuo3gH5aCS0orrL8dCMzg%3A1655304035704&ei=Y--pYo3FKv714-EPnuutwA8&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=google&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIQCC4QsQMQgwEQxwEQ0QMQQzILCAAQgAQQsQMQgwEyBAgAEEMyCwgAEIAEELEDEIMBMgUIABCABDIECAAQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgcIABBHELADOgcIABCwAxBDOhIILhDHARDRAxDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToECAAQRzoHCCMQsQIQJzoKCAAQsQMQgwEQCjoECAAQCjoHCAAQsQMQCkoECEEYAEoECEYYAFC5VVjFW2CrcmgDcAJ4AYAB-QGIAbEHkgEDMi00mAEAoAEByAEIwAEB2gEECAEYCA&sclient=gws-wiz"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="Origination.html">Origination</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Forms and styles
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="children.html">Children</a>
+                            <a class="dropdown-item" href="young.html">Young</a>
+                            <a class="dropdown-item" href="Elders.html">Elders</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Letters and Fonts
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Letters.html">Letters</a>
+                            <a class="dropdown-item" href="code fonts.html">Fonts</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Designs
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course-single.html">China</a>
+                            <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                            <a class="dropdown-item" href="forindia-single.html">India</a>
+                            <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                            <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                            <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+                          </div>
+                        </li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Customer support
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Subscribe</h3>
+                    </div>
+                    <div class="footer-text mb-25">
+                        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form action="#">
+                            <input type="text" placeholder="Email Address">
+                            <button><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+<!-- /footer -->
+
+<script src="./libary/toast-message/toast.js"></script>
+
+<script>
+  document.getElementById('Rsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Sign up success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+<script>
+  document.getElementById('Lsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Login success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5...wOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

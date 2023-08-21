@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caligraphy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Toast message -->
+  <link rel="stylesheet" href="./libary/toast-message/toast.css">
+
+</head>
+
+<body>
+
+  <div id="toast"></div>
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/?lang=en"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/?hl=en"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <p class="navbar-brand"><a href="index.html"><img src="images/logo.jpg" alt="logo" width = 150px height = 100px></a></p>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Origination.html">Origination</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Forms and styles
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="children.html">Children</a>
+                <a class="dropdown-item" href="young.html">Young</a>
+                <a class="dropdown-item" href="Elders.html">Elders</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Letters and Fonts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Letters.html">Letters</a>
+                <a class="dropdown-item" href="code fonts.html">Fonts</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Designs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="course-single.html">China</a>
+                <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                <a class="dropdown-item" href="forindia-single.html">India</a>
+                <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Customer support
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Register</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <div id = "Rsend" class="login">
+                  <form action="#" class="row">
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password" required>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="btn btn-primary">SIGN UP</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Login</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div id = "Lsend" class="modal-body">
+              <form action="#" class="row">
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" required>
+                  </div>
+                  <div class="col-12">
+                      <button type="submit" class="btn btn-primary">LOGIN</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- page title -->
+<section class="page-title-section overlay" data-background="images/backgrounds/anh22.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item"><a class="h2 text-primary font-secondary" href="@@page-link">the origin of the founder of calligraphy and the history of calligraphy.</a></li>
+          <li class="list-inline-item text-white h3 font-secondary @@nasted"></li>
+        </ul>
+        <p class="text-lighten">paintings, biographies, autographs and the meaning of calligraphy. The secret of the explorer of calligraphy culture.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /page title -->
+
+<!-- scholarship -->
+<section class="section">
+  <p style="text-align:center;"><b style="font-size: 40px;">Picture of Ly Tu</b></p>
+  <div class="container">
+    
+<div class="row justify-content-center">
+ 
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/Lí tư 1.jpg" alt="course thumb">
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/Lí tư 2.jpg" alt="japan">
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/lí tư 3.jpg" alt="course thumb">
+    </div>
+  </div>
+  
+</section>
+<section>
+  <p style="text-align:center;"><b style="font-size: 40px;">Trial of Ly Tu</b></p>
+  <p style="text-indent: 50px;">Ly Tu was assigned by Emperor Qin to unify the text into one style and was also considered to be the foundation for calligraphy.</p>
+
+  <p><b style="font-size: 30px;">Ly Tu</b> (李斯, 284 BC - 208 BC) was an ancient Chinese politician who served as prime minister under the reigns of Qin Shi Huang and Qin Er Shi. He was a man of great merit in the unification of vassals by Qin Shi Huang, turning China into a centralized monarchy, unified in writing, measurement and ideology.</p>
+  <p><b style="font-size: 30px;">Background</b><br>
+    Ly Tu is from Thuong Sai land of Chu country<br>
+    He was born in the Warring States period<br>
+    He and Han Phi were both students of Tuan Tu.<br>
+    When he was young, he worked as a small mandarin in the district, was a secretary in the commune's clerical administration, and since then he has cultivated the will to do politics.</p>
+
+<p><b style="font-size: 30px;">Set up a career</b> 
+<p style="text-indent: 50px;">In 247 BC, when he arrived in the Qin state, when he met the death of Qin Trang Tuong Vuong, Ly Tu asked to be a follower of Van Tin Hau La Bat Vi, the prime minister of the Tan state. Bat Vi is considered a sage who is used as the "Lang" mandarin. Because of that, Ly Tu had the opportunity to travel, and Qin Vuong Chinh made Tu the chief historian, and then the guest. Among the 3,000 "guests" of La Buwei, Ly Tu quickly became the most prominent.</p>
+<p style="text-indent: 50px;">In the ninth year of the 9th dynasty, through many events, Li Shu took power in his hands and changed his personality, and he harmed (Han Fei) causing his death. and this is also the historical tragedy of the times.</p>
+<p><b style="font-size: 30px;">Prime Minister of the Qin Dynasty (Li Tu)</b> 
+<p style="text-indent: 50px;">Tu is related to the family lieutenant. For more than 20 years, the Qin state annexed all of its vassal states and unified China. King Qin became emperor and made Ly Tu prime minister. The Qin Dynasty flattened the vassal castle, ordered the districts and districts to melt weapons, meaning they were no longer in use. Heeding Ly Tu's will, Qin Shi Huang did not give land to anyone, even if it was only a few feet long, did not establish a royal family as a king, and a public god as a vassal to avoid repeating the story of countries fighting.</p>
+<p style="text-indent: 50px;">Through his words, Qin Shi Huang obeyed him and confiscated all the books of the Classics, the Classics, and the books of the Huns, leaving only the books of medicine, fortune-telling, and planting books, avoiding the use of old affairs. to consider this life. Ly Tu also helped the king to make laws, unify the literature, measure, build palaces and villas throughout the country, defeat the Xiongnu.</p>
+ <p><b style="font-size: 30px;">His death</b>
+ <p style="text-indent: 50px;">After doing anti-war, the emperor's power was due to treason. Ly Tu Một nămand his son were subjected to a torture called the "five punishments" that he invented[2] and the three of them were killed together, with their heads covered at the city gate. It was 208 BC, when he was about 60 years old.</p>
+ <p style="text-indent: 50px;">A year after Ly Tu died, Trieu Cao forced Nhi The to commit suicide.[3] King Qin Tu Anh ascended the throne, killed Trieu Cao, then Luu Bang invaded Qin, captured Tu Anh, later Tu Anh was killed by Xiang Yu. The Qin Dynasty was destroyed.</p>
+<p><b style="font-size: 30px;">General comments about Mr</b></p>
+<p style="text-indent: 50px;">
+ Ly Tu was born as a clothier in the village, traveled throughout the vassal countries, went to worship Qin, took advantage of the opportunity that other countries could take advantage of, so he helped Thuy Hoang make a career. Self-made three gongs, can be called high position and be respected. Tu knew the way of the six scriptures, but he did not worry about making himself clear to correct the king's shortcomings; On the contrary, he took care of keeping the title high, and having a good fortune, making his majesty more solemn, his punishment more cruel, listening to Cao's heresies, leaving the eldest son to establish a second son. It's not too late when the vassals have committed treason, then Tu wants to stop it, isn't it too late? People all think that Tu was loyal but died in five forms, but in the end, it was not like the common sayings of the world. If not, it turns out that Tu's work can be compared to that of Chu Cong and Thieu Cong.
+ </p>
+</section>
+<section class="section">
+  <p style="text-align:center;"><b style="font-size: 40px;">Ly Tu Calligraphy</b></p>
+  <div class="container">
+    
+<div class="row justify-content-center">
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/bút pháp 1.jpg" alt="course thumb">
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/bút pháp 2.jpg" alt="japan">
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/Source/bút pháp 3.jpg" alt="course thumb">
+    </div>
+  </div>
+  
+</section>
+
+<section>
+  <p style="text-align:center;"><b style="font-size: 35px;">THE ORIGINAL OF CHARACTERISTICS AND THE MEANING OF THE ART OF Calligraphy IN LIFE
+  </b></p>
+  <div class="col-12 mb-4">
+    <h3 class="mb-3">ORIGINAL</h3>
+    <div class="col-12 px-0">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-styled">
+            <p style="text-indent: 50px;">
+              Where did calligraphy come from? That will certainly be the question of calligraphy lovers. People who have a hard time practicing calligraphy for a long time without knowing the origin. Or those who are trying to forge calligraphy.
+            </p>
+            <p style="text-indent: 50px;">
+              The following article helps students as well as calligraphy enthusiasts have an overview. About the origin and beginnings of calligraphy in Vietnam!
+            </p>
+          </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Source/ảnh !.png" wight="1000pt" height="200pt" >
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mb-4">
+      <h3>History of calligraphy </h3>
+      <div class="col-12 px-0">
+        <div class="row">
+          <div class="col-md-6">
+            <ul class="list-styled">
+              <p style="text-indent: 50px;">
+                Calligraphy appeared almost simultaneously with the formation of the text by the need for elegant presentation and transparency of the text. The main tools that create calligraphy are the pen and the writing material, which is later understood to include (ink and paper). Calligraphers are often not necessarily intellectuals, but are more or less respected for having enough academic capital to transcribe.
+                - Continents' vision for calligraphy
+              </p>
+              <p style="text-indent: 50px;">
+                 In the Western world, calligraphers are often sages or priests because of the pragmatic nature of the signature form across the paper. and understood
+                  “Calligraphy” is the ART OF BEAUTIFUL WRITE in general.
+              </p>
+              <p style="text-indent: 50px;">
+                 As for the Asian world, calligraphy is: calligraphy has a clear level of improvement, calligraphy is having at least once passed the exam or being respected for both talent and virtue. then these people consider their letters to be precious assets and only give them to those who are dear or respectful, the rest of the calligraphers, who have failed their exams, are not qualified to teach but are also looked down upon.
+              </p>
+              <p style="text-indent: 50px;">
+                 In post-modern Vietnam, due to the stigma as well as the interruption of the Chinese character culture[2], many people who claim to be calligraphers sell letters in the ancient style, but often violate the taboos of the scribes. Traditional painting: Unable to distinguish Chinese characters, do not know how to hold a pen, mix ink, even abuse Latin characters in Chinese calligraphy (because they themselves do not study Chinese characters seriously)... This class of people was ostracized by Han-Nom researchers.
+              </p>
+            </ul>
+          </div>
+          <div class="col-md-6">
+              <img src="images/Source/ảnh @.png" wight="1000pt" height="300pt" >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p><b style="font-size: 30px;">Cultural</b></p>
+  <p style="text-indent: 50px;">
+    - In medieval Western Europe, handmade jewelry (manuscriptum illuminatum) was an art school combining calligraphy and painting, requiring elaborate and relatively expensive materials. Calligraphers are usually priests with special talents who are entrusted by the seminary to prepare content related to relics, interesting things in folk at the same time.
+  </p>
+  <p style="text-indent: 50px;">
+    - Oriental calligraphy is said to have been formed during the East Chau Lieu Kingdom period with metal texts and seals derived from armor bone texts. Up to now, there are still a number of traditional calligraphy letters written by the scholar Wang Hi Chi of the Eastern Jin Dynasty. Later, there were Tong Huy Tong, To Thuc, Duong Dan, Van Trung Minh... to follow. In modern times, the late Chinese president Mao Zedong is also considered a famous calligrapher with his unique Mao self school.
+  </p>
+  <p style="text-indent: 50px;">
+    - In Vietnam, calligraphers of low moral character are often called roughly "Master Do", "Grandfather", and "Master Tu", equivalent to "student" and "baccalaureate". In fact, there are very few calligraphers of this class who achieve that title, so they have to choose the profession of selling letters to support themselves, the most despised in the scholarly forest.
+  </p>
+  <p style="text-indent: 50px;">
+    - Chinese characters have been used in Vietnam since at least 2000 years ago. The independent feudal and monarchy dynasties in Vietnam all considered Chinese characters, Chinese literature as the state administrative language, literary language... Even under the Nguyen Dynasty, the Vietnamese court also claimed to be the next subject. cultural heritage, orthodox Han language, than the Northern Qing. Chinese characters have lost their unique position, giving way to the national language since the beginning of the 20th century, marked by the abolition of the entrance exam at the end of the Nguyen Dynasty. Although it is no longer respected as in the past, Chinese characters continue to be used by the Democratic Republic of Vietnam (North) and the Republic of Vietnam (South) in many official cases. Only after the Socialist Republic of Vietnam was established (1976), especially after the Vietnam - China war took place (1979), did Chinese characters officially step out of the historical arena and gradually become a things "strange letters", assigned with many "strange" values.''
+  </p>
+  <p style="text-indent: 50px;">
+    Although the level of calligraphers is not always high, these classes of people have made quite an important contribution in human history in terms of beautifying the writing, invisibly making the text more attractive. However, in many historical periods, those who abuse the title of calligraphers for their own profit have inadvertently destroyed the beauty of calligraphy.
+  </p>
+
+  <p style="text-indent: 50px; text-align: center;"><b style="font-size: 30px; "> Influence of countries in the world</b></p>
+  <p style="text-indent: 50px;"><b style="font-size: 30px;">Asia</b> Oriental calligraphy some details about calligraphy [ East Asia]
+    (Chinese: 東亞書法, East Asian calligraphy) is the art of beautiful handwriting formed from the practice of writing Chinese characters. People use brush, dot Chinese ink, write Chinese characters on fine paper or silk fabric, in different styles. In Asian calligraphy art, there are 5 writing styles: Chan (also known as Khai), Trien, Le, Hanh and Thao with their own specific rules of lines and expressions.</p>
+  <p style="text-indent: 50px;"><b style="font-size: 30px;">Chinese calligraphy</b>
+    is the Chinese writing that was raised to an art and had a profound influence on neighboring countries such as Japan, Korea, and Vietnam.
+    When brushes, paper and ink were invented, kanji began to be written in large and small strokes. Since the Han Dynasty, Chinese characters have stabilized in font style and type of strokes. The same character, but the Chinese characters have 5 main writing styles (called shōji ) : The seal (including the great seal 大篆 and the minor seal 小篆), the lishu 隸書, the Khaishu 楷書, the Xingshu 行書, and the draft letter 草書.<br>
+    The above typefaces<br>
+    <p style="text-indent: 50px;">Seal 篆書 (Seal Letter). When Qin Shi Huang unified China, he ordered Prime Minister Ly Tu to unify the script, that is, to unify the scripts between the previous countries from the great seal to the minor seal.</p>
+    <p style="text-indent: 50px;">Letter 隸書 (letter rule). A common form of official correspondence, this typeface was very popular between the 3rd and 2nd centuries BC.</p>
+    <p style="text-indent: 50px;">The word revelation 楷書 (revelation letter or letter 正書). It is a modification of the script and began to be popular in the 3rd century CE. This is the official, standard, recognizable, most readable and still the most popular type of Chinese writing today.</p>
+    <p style="text-indent: 50px;">The kanji 行書 (letter). It is a shorthand form of the word Revelation, used in intimate documents (such as letters) and pictures. The word kanji began to be popular in the 2nd century. When written quickly, the word Khai could be shortened by a stroke or two to form a form called han Khai (行楷). Likewise, the kanji will turn into cursive (行草). The very famous calligraphy work Lanting Xie Tu (蘭亭集序) by Wang Xizhi (王羲之) of the Jin Dynasty was written with kanji.</p>
+    <p style="text-indent: 50px;">Cursive (cursive letter). Is the fastest written form, liberal style. With Chinese characters, when written normally according to the Khai script, you have to write a lot of strokes, but with cursive letters, you can write with one stroke. Many characters can be written consecutively with a single stroke, for example Huaisu's wild draft (狂草) (crazy cursive) (懷素, circa 730-780).</p>
+  </p>
+  <p style="text-indent: 50px;">
+    Between the 2nd and 4th centuries, the art of writing, known as calligraphy, became an elegant and sublime art of the people in need; a person skilled in calligraphy is often regarded as a highly educated intellectual.
+  </p>
+  <div class="col-12 mb-4">
+    <div class="col-12 px-0">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-styled">
+            <p style="text-indent: 50px;">
+              In China and countries influenced by Chinese culture, such as Japan, Korea, and Vietnam, calligraphic works are often expressed in Chinese characters and use brush, ink, paper, and sandpaper. ink, also known as "four treasures office". The Chinese have brought the art of writing up into a noble art with the nature of showing the meekness of people. Calligraphy in Japan is called calligraphy more important than heavy weight, while in Korea it is called calligraphy.
+            </p>
+            <p style="text-indent: 50px;">
+              Asian calligraphy is both an independent art and a component of the composition of painting in the ancient Chinese style. Many painters, such as To Dong Pha, Me Phat of the Song Dynasty; Qi Bach Thach in modern times is famous for both painting and calligraphy. Calligraphy supports painting and a beautiful calligraphy itself is also considered a painting with the concept of "uniform calligraphy".
+            </p>
+            <p style="text-indent: 50px;">
+              In addition to the four treasures office, it is also necessary to mention the seal of the chapter (seal or seal) made of materials such as stone, wood, metal where the engraving and stamping uses red cinnabar ink on the letter. Dharma has also been elevated to an art form.
+            </p>
+          </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Source/ảnh $.png" wight="1000pt" height="300pt" >
+        </div>
+      </div>
+    </div>
+  </div>
+  <p style="text-indent: 50px;">
+    In China and countries influenced by Chinese culture, such as Japan, Korea, and Vietnam, calligraphic works are often expressed in Chinese characters and use brush, ink, paper, and sandpaper. ink, also known as "four treasures office". The Chinese have brought the art of writing up into a noble art with the nature of showing the meekness of people. Calligraphy in Japan is called calligraphy more important than heavy weight, while in Korea it is called calligraphy.
+  </p>
+  <p style="text-indent: 50px;">
+    Asian calligraphy is both an independent art and a component of the composition of painting in the ancient Chinese style. Many painters, such as To Dong Pha, Me Phat of the Song Dynasty; Qi Bach Thach in modern times is famous for both painting and calligraphy. Calligraphy supports painting and a beautiful calligraphy itself is also considered a painting with the concept of "uniform calligraphy".
+  </p>
+  <p style="text-indent: 50px;">
+    In addition to the four treasures office, it is also necessary to mention the seal of the chapter (seal or seal) made of materials such as stone, wood, metal where the engraving and stamping uses red cinnabar ink on the letter. Dharma has also been elevated to an art form
+  </p>
+  <p style="text-indent: 50px;">
+    In Korea, Japan, calligraphy is also highly appreciated. In old houses, the Japanese often reserve a room for the "tea ceremony" ceremony, on the wall there is a separate compartment (an altar, called a tokonoma) to hang a painting.
+  </p>
+  <p style="text-indent: 50px;">
+    In Vietnam, although there is no traditional calligraphy like China or Japan, but based on a number of posthums, autographs, vestiges on papers, books, ordination or inscriptions remaining, our country also Many famous people are honored by the world. Nowadays, Quoc Ngu script written in calligraphy using brush and ink tools, as a search for new forms of expression, is also gradually becoming more and more interested. Although Quoc Ngu script was born later, it has great creativity. Calligraphy is now incorporated into many materials such as wood, calligraphy on stone, calligraphy on bamboo blinds.
+  </p>
+  <div class="col-12 mb-4">
+      <h2>Westernization</h2>
+    <div class="col-12 px-0">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-styled">
+            <p style="text-indent: 50px;">
+              Western calligraphy (also known as Calligraphy) has a different style from Asian calligraphy. The lettering is straightened according to standards and proportions instead of the common cursive style in Asian calligraphy.
+            </p>
+            <p style="text-indent: 50px;">
+              Western calligraphy can be expressed by many means: iron pen, brush, ruler, compass, eke...
+            </p>
+          </ul>
+        </div>
+        <div class="col-md-6">
+            <img src="images/Source/ảnh ^.png" wight="300pt" height="150pt" >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 mb-4">
+    <h2>Arab World</h2>
+  <div class="col-12 px-0">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="list-styled">
+          <p style="text-indent: 50px;">
+            Arabic calligraphy is an aspect of Islamic art that has developed in tandem with Islam and the Arabic language.
+          </p>
+          <p style="text-indent: 50px;">
+           Islamic calligraphy (calligraphy in Arabic is khatt ul-yad (خط اليد) and in Persian Khosh-Nevisi (خوشنویسی) has evolved with Islam and the Arabic language. Arabic letters so some people refer to it as "Arabic calligraphy." However, the term "Islamic calligraphy" is a more appropriate term as it includes all calligraphic works of the writers. Islamic calligraphy belongs to different national cultures, such as Persian or Ottoman calligraphy, from Al-Andalus in medieval Spain to China, India.
+          </p>
+          <p style="text-indent: 50px;">
+            Arabic/Persian calligraphy is related to the Islamic art decorations on the walls and ceilings of mosques as well as on the pages of scriptures. Contemporary artists of the Muslim world have learned from the legacies of calligraphy to use in their works.
+          </p>
+          <p style="text-indent: 50px;">
+            Instead of evoking something related to the reality of speech, for Muslims, calligraphy is an expression of the noblest art - the art of the spiritual world. Calligraphy has become the holiest form of Islamic art because it provides a link between the Muslim languages ​​and Islam. The Bible of Islam, the Koran, has played an important role in the development of the Arabic language, which by extension is Arabic calligraphy. Aphorisms and complete passages in the Koran are still living sources for Arabic calligraphy.
+          </p>
+        </ul>
+      </div>
+      <div class="col-md-6">
+          <img src="images/Source/ảnh &.png" wight="500pt" height="300pt" >
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- footer -->
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Area III, Can Tho University, 01 Ly Tu Trong, Ninh Kieu District, City. Can Tho</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>+44 300 303 0266</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>calligraphy@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>May oily rain <br>
+
+I ask for your knowledge to give you many . <br>
+
+Across the river, send back a smile. <br>
+Love to a dear teacher. <br>
+
+Carpentry crane - dewy head <br>
+
+I've been with you for thousands of days.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                        <a href="https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoidmkifQ%3D%3D"%7D"><i class="fab fa-twitter twitter-bg"></i></a>
+                        <a href="https://www.google.com/search?q=google&client=opera&hs=Wos&sxsrf=ALiCzsahu0oehOuo3gH5aCS0orrL8dCMzg%3A1655304035704&ei=Y--pYo3FKv714-EPnuutwA8&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=google&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIQCC4QsQMQgwEQxwEQ0QMQQzILCAAQgAQQsQMQgwEyBAgAEEMyCwgAEIAEELEDEIMBMgUIABCABDIECAAQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgcIABBHELADOgcIABCwAxBDOhIILhDHARDRAxDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToECAAQRzoHCCMQsQIQJzoKCAAQsQMQgwEQCjoECAAQCjoHCAAQsQMQCkoECEEYAEoECEYYAFC5VVjFW2CrcmgDcAJ4AYAB-QGIAbEHkgEDMi00mAEAoAEByAEIwAEB2gEECAEYCA&sclient=gws-wiz"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="Origination.html">Origination</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Forms and styles
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="children.html">Children</a>
+                            <a class="dropdown-item" href="young.html">Young</a>
+                            <a class="dropdown-item" href="Elders.html">Elders</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Letters and Fonts
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Letters.html">Letters</a>
+                            <a class="dropdown-item" href="code fonts.html">Fonts</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Designs
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course-single.html">China</a>
+                            <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                            <a class="dropdown-item" href="forindia-single.html">India</a>
+                            <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                            <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                            <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+                          </div>
+                        </li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Customer support
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Subscribe</h3>
+                    </div>
+                    <div class="footer-text mb-25">
+                        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form action="#">
+                            <input type="text" placeholder="Email Address">
+                            <button><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+<!-- /footer -->
+
+<script src="./libary/toast-message/toast.js"></script>
+
+<script>
+  document.getElementById('Rsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Sign up success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+<script>
+  document.getElementById('Lsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Login success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5...wOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

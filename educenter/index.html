@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>Caligraphy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+  <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Toast message -->
+  <link rel="stylesheet" href="./libary/toast-message/toast.css">
+
+</head>
+
+<body>
+
+  <div id="toast"></div>
+
+<!-- header -->
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+443003030266"><strong>CALL</strong> +</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/?lang=en"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/?hl=en"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-8 text-center text-lg-right">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#loginModal">login</a></li>
+            <li class="list-inline-item"><a class="text-uppercase text-color p-sm-2 py-2 px-0 d-inline-block" href="#" data-toggle="modal" data-target="#signupModal">register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- navbar -->
+  <div class="navigation w-100">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <p class="navbar-brand"><a href="index.html"><img src="images/logo.jpg" alt="logo" width = 150px height = 100px></a></p>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item @@about">
+              <a class="nav-link" href="about.html">About us</a>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Origination.html">Origination</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Forms and styles
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="children.html">Children</a>
+                <a class="dropdown-item" href="young.html">Young</a>
+                <a class="dropdown-item" href="Elders.html">Elders</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Letters and Fonts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Letters.html">Letters</a>
+                <a class="dropdown-item" href="code fonts.html">Fonts</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Designs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="course-single.html">China</a>
+                <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                <a class="dropdown-item" href="forindia-single.html">India</a>
+                <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+              </div>
+            </li>
+            <li class="nav-item @@events">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Customer support
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                <a class="dropdown-item" href="contact.html">Contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Register</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div class="modal-body">
+              <div id = "Rsend" class="login">
+                  <form action="#" class="row">
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password" required>
+                      </div>
+                      <div class="col-12">
+                          <button type="submit" class="btn btn-primary">SIGN UP</button>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content rounded-0 border-0 p-4">
+          <div class="modal-header border-0">
+              <h3>Login</h3>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+          <div id = "Lsend" class="modal-body">
+              <form action="#" class="row">
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name" required>
+                  </div>
+                  <div class="col-12">
+                      <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password" required>
+                  </div>
+                  <div class="col-12">
+                      <button type="submit" class="btn btn-primary">LOGIN</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- section-->
+<section class="hero-section overlay bg-cover" data-background="images/backgrounds/anh0.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Developing Calligraphy is everyone's mision</h1>
+<p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">
+  the era is developing more and more, calligraphy is becoming more and more lost, the old man is forgotten. therefore, it is necessary to join hands to protect the longstanding calligraphy culture of each country
+</p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Developing Calligraphy is everyone's mision</h1>
+<p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">
+  the era is developing more and more, calligraphy is becoming more and more lost, the old man is forgotten. therefore, it is necessary to join hands to protect the longstanding calligraphy culture of each country
+</p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Developing Calligraphy is everyone's mision</h1>
+<p class="text-muted mb-4" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".4">
+  the era is developing more and more, calligraphy is becoming more and more lost, the old man is forgotten. therefore, it is necessary to join hands to protect the longstanding calligraphy culture of each country
+</p>
+            <a href="contact.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /section -->
+
+<!-- courses -->
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="d-flex align-items-center section-title justify-content-between">
+<h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
+          <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+          <div>
+            <a href="courses.html" class="btn btn-sm btn-primary-outline ml-sm-3 d-none d-sm-block">see all</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<div class="row justify-content-center">
+
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/course-1.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="course-single.html">
+          <h4 class="card-title">For China</h4>
+        </a>
+        <p class="card-text mb-4"> Chinese calligraphy is an art of unique expression of Chinese culture, it is known as: a poem without words, invisible dance; picture without lines but also music without words.</p>
+        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/japan1.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="forjapan-single.html">
+          <h4 class="card-title">For Japan</h4>
+        </a>
+        <p class="card-text mb-4"> Calligraphy in Japan is considered a sublime, elegant art form that uses ink and brush as a writing tool and is often performed by Zen masters, called calligraphy is always associated with art. Zen Buddhism is more important than words.</p>
+        <a href="forjapan-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/courses/hq.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="forkorea-single.html">
+          <h4 class="card-title">For Korea</h4>
+        </a>
+        <p class="card-text mb-4"> Calligraphy in Korea is a visual art that reflects the traditional art of writing letters in Hangul or Hanja. It is a cherished Korean art form that conveys the emotions of the artists while embodying the strength, purity, and permanence of this ancient tradition.</p>
+        <a href="forkorea-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+</div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/vietnam/vn.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="forvietnam-single.html">
+          <h4 class="card-title">For VietNam</h4>
+        </a>
+        <p class="card-text mb-4"> Vietnamese calligraphy is heavily influenced by Chinese calligraphy. Originated in China and Arabia. Since then, it has become a traditional art until today.</p>
+        <a href="forvietnam-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/arap/ârap1.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#"></a></li>
+        </ul>
+        <a href="forarabs-single.html">
+          <h4 class="card-title">For Arabs</h4>
+        </a>
+        <p class="card-text mb-4"> Islamic calligraphy is the art of using handwriting in languages that use the Arabic alphabet or alphabets of Arabic origin.</p>
+        <a href="forarabs-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-sm-6 mb-5">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" src="images/ando/ad1.png" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>05-16-2022</li>
+          <li class="list-inline-item"><a class="text-color" href="#">Humanities</a></li>
+        </ul>
+        <a href="forindia-single.html">
+          <h4 class="card-title">For India</h4>
+        </a>
+        <p class="card-text mb-4"> Indian calligraphy is the calligraphy tradition of the Indians. This art form has served many purposes since its inception in the second century BC.</p>
+        <a href="forindia-single.html" class="btn btn-primary btn-sm">Apply now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="row">
+      <div class="col-12 text-center">
+        <a href="courses.html" class="btn btn-sm btn-primary-outline d-sm-none d-inline-block">sell all</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /courses -->
+
+<!-- cta -->
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h6 class="text-white font-secondary mb-0">Click to join the Advanced Training workshop</h6>
+        <h2 class="section-title text-white">Calligraphy</h2>
+        <a href="contact.html" class="btn btn-secondary">join now</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /cta -->
+
+<!-- success story -->
+<section class="section bg-cover" data-background="images/backgrounds/success-story.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-sm-4 position-relative success-video">
+        <a class="play-btn venobox" href="https://www.youtube.com/watch?v=aJNzZ1vu2dI" data-vbtype="video">
+          <i class="ti-control-play"></i>
+        </a>
+      </div>
+      <div class="col-lg-6 col-sm-8">
+        <div class="bg-white p-5">
+          <h2 class="section-title">Success Stories</h2>
+          <p>
+            Quach Tu Vy is a 12th grader at Bac Lieu High School. She loves to draw ancient paintings, and wants to write some calligraphy on the picture to make it more beautiful. From that idea, I went online to find out how easy it is to write calligraphy. At first, I just wanted to write a few words for fun. However, after delving into this art field, I find it more and more interesting and interesting.
+"I see calligraphy as a traditional cultural value, but it seems that many young people have forgotten it. So, I wanted to revive it, and then decided to pursue calligraphy seriously, so I tried to learn." <br>
+Tu Vy said that she has a dream that after graduating from high school, she will enter architecture or fine arts. However, her passion for painting at first was opposed by her parents. Because both parents are majoring in medicine, they want their children to follow this industry. Although they support their daughter to pursue her passion for painting, Tu Vy's parents still want her to pursue a career in medicine. My mother also advised her daughter to follow the medical profession and consider painting as her "job" on her left hand. However, the daughter with this personality "has the courage" to reply that "if you force me to study medicine, I will study but it will be for my parents, not for me ...". Since then, she has tried to practice calligraphy and successfully realized her passion for calligraphy
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /success story -->
+
+<!-- blog -->
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">Latest News</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+  <!-- blog post -->
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="images/ông đồ nhí.jpg" alt="Post thumb">
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">February 9, 2021</li>
+            <!-- author -->
+            
+          </ul>
+          <a href="blog-single.html">
+            <h4 class="card-title">The famous 'baby man' in Saigon.</h4>
+          </a>
+          <p class="card-text">Holding a brush in his hand, looking directly at the person sitting opposite, 13-year-old boy Tran Thien Phu thought for a moment and then dabbed ink, "dancing" on paper.</p>
+          <a href="blog-single.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    <!-- blog post -->
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <iframe width="350" height="250" src="https://www.youtube.com/embed/NpU8FHhT7GY"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">February 5, 2019</li>
+            <!-- author -->
+
+          </ul>
+          <a href="blog2.html">
+            <h4 class="card-title">Traditional knowledge: "Vietnamese users write letters"</h4>
+          </a>
+          <p class="card-text"> Hanoians also have a tradition of asking for letters on each occasion of the New Year</p>
+          <a href="blog2.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    <!-- blog post -->
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="images/đồ mĩ.jpg" alt="Post thumb">
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">August 24, 2018</li>
+            <!-- author -->
+          </ul>
+          <a href="blog3.html">
+            <h4 class="card-title">New Year of the Rat 2020: Westerners are filled with joy in Ong Do street.</h4>
+          </a>
+          <p class="card-text">Near the Lunar New Year of the Rat 2020, the streets in the center of Can Tho City are bustling with Ong Do neighborhood</p>
+          <a href="blog3.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="images/báo thư pháp 1.jpg" alt="Post thumb">
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">September 28, 2020</li>
+            <!-- author -->
+          </ul>
+          <a href="blog4.html">
+            <h4 class="card-title">Interesting activities at the Exhibition and Calligraphy Festival 'Thang Long - Hanoi'.</h4>
+          </a>
+          <p class="card-text">The exhibition and festival were held with representatives of 10 calligraphy clubs in Hanoi, many calligraphers in the North, Central and South regions, showing their talent in Han Nom and Quoc Ngu calligraphy.</p>
+          <a href="blog4.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <iframe width="350" height="250" src="https://www.youtube.com/embed/P1lvJhFA4oc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">Feb 14, 2021</li>
+            <!-- author -->
+          </ul>
+          <a href="blog5.html">
+            <h4 class="card-title">Unique handwriting and reverse calligraphy.</h4>
+          </a>
+          <p class="card-text">In the field of calligraphy, Hieu Tin is a name that has made many beautiful impressions of professionals and the public.</p>
+          <a href="blog5.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    <article class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+      <div class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="images/báo thư pháp 2.jpg" alt="Post thumb">
+        <div class="card-body">
+          <!-- post meta -->
+          <ul class="list-inline mb-3">
+            <!-- post date -->
+            <li class="list-inline-item mr-3 ml-0">April 1, 2021</li>
+            <!-- author -->
+          </ul>
+          <a href="blog6.html">
+            <h4 class="card-title">Calligraphy exhibition by Zen master Thich Nhat Hanh.</h4>
+          </a>
+          <p class="card-text">Ho Chi Minh City 90 calligraphy and 145 books are displayed for the first time at the exhibition "Fragrance of Motherland" by Zen master Thich Nhat Hanh.</p>
+          <a href="blog6.html" class="btn btn-primary btn-sm">read more</a>
+        </div>
+      </div>
+    </article>
+    </div>
+  </div>
+</section>
+<!-- /blog -->
+
+<!-- footer -->
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>Area III, Can Tho University, 01 Ly Tu Trong, Ninh Kieu District, City. Can Tho</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>+44 300 303 0266</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>calligraphy@gmail.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/logo.jpg" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>May oily rain <br>
+
+I ask for your knowledge to give you many . <br>
+
+Across the river, send back a smile. <br>
+Love to a dear teacher. <br>
+
+Carpentry crane - dewy head <br>
+
+I've been with you for thousands of days.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <a href="https://www.facebook.com"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                          <a href="https://twitter.com/i/flow/login?input_flow_data=%7B"requested_variant"%3A"eyJsYW5nIjoidmkifQ%3D%3D"%7D"><i class="fab fa-twitter twitter-bg"></i></a>
+                          <a href="https://www.google.com/search?q=google&client=opera&hs=Wos&sxsrf=ALiCzsahu0oehOuo3gH5aCS0orrL8dCMzg%3A1655304035704&ei=Y--pYo3FKv714-EPnuutwA8&gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&oq=google&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIQCC4QsQMQgwEQxwEQ0QMQQzILCAAQgAQQsQMQgwEyBAgAEEMyCwgAEIAEELEDEIMBMgUIABCABDIECAAQQzIICAAQgAQQsQMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgcIABBHELADOgcIABCwAxBDOhIILhDHARDRAxDIAxCwAxBDGAE6DwguENQCEMgDELADEEMYAToECAAQRzoHCCMQsQIQJzoKCAAQsQMQgwEQCjoECAAQCjoHCAAQsQMQCkoECEEYAEoECEYYAFC5VVjFW2CrcmgDcAJ4AYAB-QGIAbEHkgEDMi00mAEAoAEByAEIwAEB2gEECAEYCA&sclient=gws-wiz"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Useful Links</h3>
+                    </div>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="Origination.html">Origination</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Forms and styles
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="children.html">Children</a>
+                            <a class="dropdown-item" href="young.html">Young</a>
+                            <a class="dropdown-item" href="Elders.html">Elders</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Letters and Fonts
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Letters.html">Letters</a>
+                            <a class="dropdown-item" href="code fonts.html">Fonts</a>
+                          </div>
+                        </li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Designs
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="course-single.html">China</a>
+                            <a class="dropdown-item" href="forarabs-single.html">Arabs</a>
+                            <a class="dropdown-item" href="forindia-single.html">India</a>
+                            <a class="dropdown-item" href="forjapan-single.html">Japan</a>
+                            <a class="dropdown-item" href="forkorea-single.html">Korea</a>
+                            <a class="dropdown-item" href="forvietnam-single.html">VietNam</a>
+                          </div>
+                        </li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li>
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Customer support
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Feedback.html">Feedback</a>
+                            <a class="dropdown-item" href="contact.html">Contact</a>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Subscribe</h3>
+                    </div>
+                    <div class="footer-text mb-25">
+                        <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                    </div>
+                    <div class="subscribe-form">
+                        <form action="#">
+                            <input type="text" placeholder="Email Address">
+                            <button><i class="fab fa-telegram-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+<!-- /footer -->
+
+<script src="./libary/toast-message/toast.js"></script>
+
+<script>
+  document.getElementById('Rsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Sign up success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+<script>
+  document.getElementById('Lsend').addEventListener('submit', (event) => {
+    
+    toast({
+      title: 'Success',
+      message: 'Login success. Thank you!',
+      type: 'success',
+      duration: 20000
+    })
+    event.preventDefault ();
+  })
+</script>
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5...wOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

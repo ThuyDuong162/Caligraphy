@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://vnexpress.net/cross-web-storage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>VnExpress</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head><body>
+<script>var domains=["https://vnexpress.net","https://staging-e.vnexpress.net","https://ngoisao.vnexpress.net","https://ione.vnexpress.net","https://video.vnexpress.net"];if(window.location.host==='demo.vnexpress.net'){domains=["https://demo.vnexpress.net","https://staging-e.vnexpress.net","https://demo-ngoisao.vnexpress.net","https://demo-ione.vnexpress.net","https://demo-video.vnexpress.net"];}window.addEventListener("message",messageHandler,false);function messageHandler(event){console.log(event);if(domains.indexOf(event.origin)<=-1){return;}var action=event.data.action;var key=event.data.key;var value=event.data.value;if(action=='save_article_readed'){var swapAID=value;var d=new Date();var keyRead='swap_zone_readed_'+(d.getMonth()+1)+d.getDate();try{var readed=localStorage.getItem(keyRead);if(readed!==null){readed=JSON.parse(readed);if(Object.values(readed).indexOf(swapAID)<0){readed[(+d)]=swapAID;localStorage.setItem(keyRead,JSON.stringify(readed));}}else{readed={};readed[(+d)]=swapAID;localStorage.setItem(keyRead,JSON.stringify(readed));}}catch(e){console.log(e);}}else if(action=='get'){var res;try{res=JSON.parse(window.localStorage.getItem(key));}catch(e){res=null;}event.source.postMessage({action:'response_web_storage',key,res},'*')}}</script>
+
+
+</body></html>
